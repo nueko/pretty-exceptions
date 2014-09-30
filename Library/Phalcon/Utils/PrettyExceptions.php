@@ -84,6 +84,7 @@ class PrettyExceptions
 	public function showFiles($showFiles)
 	{
 		$this->_showFiles = $showFiles;
+        return $this;
 	}
 
 	/**
@@ -94,6 +95,7 @@ class PrettyExceptions
 	public function showFileFragment($showFileFragment)
 	{
 		$this->_showFileFragment = $showFileFragment;
+        return $this;
 	}
 
 	/**
@@ -104,6 +106,7 @@ class PrettyExceptions
 	public function showApplicationDump($showApplicationDump)
 	{
 		$this->_showApplicationDump = $showApplicationDump;
+        return $this;
 	}
 
 	/**
@@ -114,6 +117,7 @@ class PrettyExceptions
 	public function setBaseUri($uri)
 	{
 		$this->_uri = $uri;
+        return $this;
 	}
 
 	/**
@@ -124,6 +128,7 @@ class PrettyExceptions
 	public function setTheme($theme)
 	{
 		$this->_theme = $theme;
+        return $this;
 	}
 
 	/**
@@ -134,6 +139,7 @@ class PrettyExceptions
 	public function showBackTrace($showBackTrace)
 	{
 		$this->_showBackTrace = $showBackTrace;
+        return $this;
 	}
 
 	/**
